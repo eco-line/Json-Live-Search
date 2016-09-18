@@ -1,0 +1,70 @@
+	body{
+		font-family: 'Droid Sans', sans-serif;
+	}
+	.header{
+		border-bottom: 2px solid #2E2E2E;
+		padding: 5px;
+	}
+	.title-of-website{
+		padding: 10px;
+	}
+	.head_text{
+		color : #0B610B;
+	}
+	.side_text{
+		color :#0B610B;
+	}
+	.head_text{
+		margin-left:70px;
+	}
+	.website-count{
+		padding: 10px;
+		background-color: #2E64FE;
+		text-align: center;
+		color:#D8D8D8;
+		border : 2px solid #2E2E2E;
+		border-radius: 5px;
+	}
+	.logo{
+		height: 100px;
+		width: 100px;
+	}
+	.side_box{
+		margin-top:30px;
+	}
+	.background{
+		padding: 20px;
+		background-color: #D8D8D8;
+	}
+	.search_bar{
+		background-color: #2E64FE;
+		padding: 10px;
+	}
+
+.favicon{
+	height: 80px;
+	width: 80px;
+}
+.box{
+	margin:10px;
+}  
+.back{
+	margin: 10px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+.left{
+	border-right: 2px solid #2E2E2E;
+}
+.right_box{
+	background-color:white;
+	padding:35px;
+	border-radius: 5px;
+}
+a:hover{
+	text-decoration: none;
+}
+i{
+	margin-right:5px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Toppr | One Push Websites local</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<!-- Vaibhav Bansal -->
+
+<body onload="getdata();">
+
+<div id="loading-image" style="width:100%;padding-top:150px;height:100%; background:rgba(0,0,0,0.6); z-index:200000; position:fixed; left:0px; top:0px; display:none;"" >
+<center><img src="images/balls.svg"/></center>
+</div>
+
+<div class="container-fluid">
+	<div class="row header">
+		<div class="col-md-8 title-of-website">
+			<div class="row">
+				<div class="col-xs-1">
+					<img class="logo" src="images/logo.png" />				
+				</div>
+				<div class="col-xs-11">
+					<h1 class="head_text">One Push</h1>		
+					<p class="head_text">- finding the best online website !</p>		
+				</div>			
+			</div>
+		</div>
+		<div class="col-md-4 side_box">
+			<div id="website_count">
+				<h4 id="count"></h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="row background">
+		<div class="col-md-8 left">
+			<div class="form-group search_bar">
+				<input class="form-control" id="search_input" type="text" name="search" placeholder="Search (by title, url or tag)" >
+			</div>
+			<div class="box" id="card_box">
+		    </div>
+		</div>
+		<div class="col-md-4">
+			<div class="right_box">
+				<div class="row">
+					<div class="col-xs-12">
+						<center><h3 class="side_text">Contribute/Add Website</h3></center>
+						<br>
+					</div>
+					
+					<form>
+					  <div class="form-group">
+					    <input placeholder="Title" type="text" class="form-control" id="title">
+					  </div>
+					  <div class="form-group">
+					    <input placeholder="web/url address" type="text" class="form-control" id="url">
+					  </div>
+					  <div class="form-group">
+					    <input placeholder="tag" type="text" class="form-control" id="tag">
+					  </div>
+					  <button onclick="pushdata()" type="submit" class="btn btn-default">Push Website</button>
+					</form>									
+				</div>
+			</div>			
+		</div>	
+	</div>
+
+</div>
+
+<!-- Vaibhav Bansal -->
+
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
